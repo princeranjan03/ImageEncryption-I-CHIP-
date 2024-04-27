@@ -20,7 +20,7 @@ Output Feedback (OFB) Mode: The output of the previous encryption is XORed with 
 ### Input
 The input is a 1024x1024 grayscale image, where each pixel value is between 0 and 255.
 
-![image](https://github.com/164adityakumar/Image_Encryption/assets/98655260/5101734b-d8b6-4984-936a-7603fb7b671f)
+![image](https://github.com/princeranjan03/ImageEncryption_I-CHIP/blob/main/Input%20Image.jpg)
 
 ### Encryption and Decryption Scheme
 The encryption and decryption schemes should be implemented in hardware using Verilog.
