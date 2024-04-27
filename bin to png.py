@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-f=open("D:/Aditya/Verilog/I CHIP/Enigma.txt","r")
+f=open("/Users/princeranjan/Desktop/ImageEncryption_I-CHIP/Enigma.txt","r")
 a1=0
 a2=0
 b=0
@@ -35,6 +35,5 @@ while(lines):
     if(a1==123457):
         break
 image=cv2.imshow("image",arr.astype('uint8'))
-#cv2.imwrite("D:/Aditya/Verilog/I CHIP/ecb_enc.bmp",image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

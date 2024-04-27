@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img=cv2.imread('C:/Users/hp/Downloads/Input Image.jpg',0)
+img=cv2.imread('/Users/princeranjan/Desktop/ImageEncryption_I-CHIP/Input Image.jpg',0)
 w,h=1024,1024
 z=0
 c=0
